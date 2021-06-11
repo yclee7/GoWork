@@ -21,7 +21,7 @@ func (f *myHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	err := json.NewDecoder(r.Body).Decode(user)
 	if err != nil {
 		w.WriteHeader(http.StatusBadRequest)
-		fmt.Fprint(w, "Bad Request: ", err)
+		fmt.Fprint(w, "Bad Request1: ", err)
 		return
 	}
 	user.CreatedAt = time.Now()
@@ -36,7 +36,7 @@ func testHandler(w http.ResponseWriter, r *http.Request) {
 	if name == "" {
 		name = "New Name"
 	}
-	fmt.Fprintf(w, "Hello World1 test %s", name)
+	fmt.Fprintf(w, "Hello World1 test11111 %s", name)
 }
 
 func NewHttpHandler() http.Handler {
