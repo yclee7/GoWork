@@ -1,8 +1,10 @@
 package main
 
 import (
-	"GoWorkspace/src/myapp"
 	"net/http"
+
+	//"./yclee.com/myapp"
+	"github.com/yclee7/GoWork/myapp"
 )
 
 func main() {
