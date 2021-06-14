@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	//"./yclee.com/myapp"
-	"github.com/yclee7/GoWork/myapp"
+	//"myapp"
+	"github.com/yclee7/gowork/myapp"
 )
 
 func main() {

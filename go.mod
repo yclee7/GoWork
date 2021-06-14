@@ -1,3 +1,3 @@
-module GoWorkspace/src
+module main
 
 go 1.16
